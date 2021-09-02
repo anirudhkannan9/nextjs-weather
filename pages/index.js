@@ -33,6 +33,7 @@ const Home = () => {
         //   lower: true,
         //   strict: true,
         // })})))
+        
 
         //then setCountries to the remaining countries with capitals
         setCountries(countriesWithCapitals.map(c => ({...c, slug: slugify(c.capital, { 
